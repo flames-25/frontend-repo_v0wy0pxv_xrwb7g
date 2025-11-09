@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import StoreLogo from "./components/StoreLogo";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <main>
         <Hero onJoinClick={handleJoin} />
         <Features />
+        <Pricing onJoinClick={handleJoin} />
       </main>
 
       <Footer />
